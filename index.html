@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+  <link rel="icon" id="favicon" href="icons/favicon.ico" type="image/x-icon">
+  <script src="swapy.min.js" defer></script>
+</head>
+<body>
+  <div class="staticLinks">
+    <a href="#" id="theme-switch">
+      <span id="theme-text">Auto</span>
+      <span id="theme-icon"></span></a>
+    <a href="https://mail.google.com">Gmail</a>
+    <a href="https://meet.google.com">Meet</a>
+    <a href="https://docs.google.com">Docs</a>
+  </div>
+  <div class="headerCont">
+    <div class="headingBox">
+      <a href="https://www.google.com" target="_blank">
+        <img src="Google.svg" alt="Google" class="heading">
+      </a>
+    </div>    
+    <div class="searchBox">
+      <form>
+        <div class="searchInputCont">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="searchIcon"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          <input type="text" placeholder="Find ..." class="searchInput" name="search">
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr class="divider">
+  <div class="gridCont">
+    <div id="shortcut-grid" class="shortcutGrid"></div>
+  </div>
+  <div class="bottomLinks">
+    <a href="https://www.xrilion.com/shortcuts">Powered by Shortcuts</a>
+    <a href="https://www.xrilion.com/shortcuts-release-notes">V~4.0</a>
+  </div>
+  <div id="add-shortcut-modal" style="display: none;" aria-hidden="true" class="modal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+    <div class="modalCont">
+      <h2 id="modalTitle">Add Shortcut</h2>
+      <form id="shortcut-form" novalidate>
+        <div class="inputForms">
+          <input type="text" id="shortcut-url" placeholder="URL*" required>
+          <input type="text" id="shortcut-name" placeholder="Name (Optional)">
+          <input type="text" id="shortcut-icon" placeholder="Icon URL (Optional)">
+        </div>
+        <div class="modalButtons">
+          <button type="button" class="cancelBtn">Cancel</button>
+          <button type="submit" class="submitBtn">Done</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
