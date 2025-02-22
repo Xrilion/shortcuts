@@ -83,5 +83,6 @@ Jabez @ Xrilion - [@jabeztadesse](https://twitter.com/jabeztadesse) - jabez@xril
 ## Acknowledgements
 
 - [Google Fonts](https://fonts.google.com)
+- [Xrilion](https://www.xrilion.com)
 - [Lucide Icons](https://lucide.dev)
 - [Swapy.js](https://swapy.js.org)
